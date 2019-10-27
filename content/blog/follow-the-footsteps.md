@@ -12,4 +12,16 @@ So the child followed the footsteps. First he passed a house🏠. Next he passed
 
 Then he followed the footsteps behind a tree🌲 and there was a person🕺 making a clone machine and a cookie machine. 
 
-"Can I have the clone machine please"? Said the child. "No, I want a clone". Said the person🧔. "I can give you the cookie🍪 machine". Said the person🧔. " I don't want the cookie machine, I wan't the clone🕺machine". Said the child. So the person🧔said "It is my first creation"! "I can return the clone🕺 machine, can't I"? Said the child. "No,you can't". Said the person🧔. " Why not
+"Can I have the clone machine please"? Said the child. 
+
+"No, I want a clone".  "I can give you the cookie🍪 machine". Said the person🧔.
+
+ " I don't want the cookie machine, I want the clone🕺machine". Said the child. 
+
+So the person🧔said "It is my first creation"! 
+
+"I can return the clone🕺 machine, can't I"? Said the child. 
+
+"No,you can't". Said the person🧔. 
+
+" Why not
