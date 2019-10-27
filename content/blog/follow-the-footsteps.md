@@ -24,4 +24,8 @@ So the person🧔said "It is my first creation"!
 
 "No,you can't". Said the person🧔. 
 
-“Why not”. Said the child. "No because you can only clone one person".
+“Why not”. Said the child. "No because you can only clone one person". Said the person🧔.
+
+So the child and the person said the same thing at the same time. They said "lets make it half me and you"!      
+
+So they did. So the lonely child was never lonely again, he was a happy child. THE END
