@@ -2,7 +2,7 @@
 path: '123'
 date: 2019-10-26T17:16:00.200Z
 title: Follow  the footsteps
-description: My first story
+description: A story about friendship
 ---
 There once was an lonely child🧒. He had no friends and nothing to play with.
 
