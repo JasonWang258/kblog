@@ -17,6 +17,11 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-plugin-material-ui`,
+      options: {
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
@@ -69,7 +74,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Eason's Story Book`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
@@ -132,7 +137,7 @@ module.exports = {
             }
             `,
             output: "/rss.xml",
-            title: `Gatsby RSS feed`,
+            title: `Story Book RSS feed`,
           },
         ],
       },
