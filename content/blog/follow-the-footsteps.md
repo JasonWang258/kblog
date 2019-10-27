@@ -10,4 +10,4 @@ One day he found footsteps👣. "I think it's someone's footsteps". Said the lon
 
 So the child followed the footsteps. First he passed a house🏠. Next he passed the skateboard park🛹. 
 
-Then he followed the footsteps behind a tree🌲 and there was a person🧍 making a friend machine and a cookie machine. "Can I have the friend machine please"? Said the child. "No, I want a friend". Said the adult🧔. "I can give you the cookie🍪 machine". Said the adult🧔. " I don't wan't the cookie machine, I wan't the friend 🧍machine". Said the child. So
+Then he followed the footsteps behind a tree🌲 and there was a person🧍 making a clone machine and a cookie machine. "Can I have the clone machine please"? Said the child. "No, I want a clone". Said the adult🧔. "I can give you the cookie🍪 machine". Said the adult🧔. " I don't wan't the cookie machine, I wan't the clone🧍machine". Said the child. So
