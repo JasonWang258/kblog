@@ -75,7 +75,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Eason's Story Book`,
-        short_name: `GatsbyJS`,
+        short_name: `StoryBook`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
