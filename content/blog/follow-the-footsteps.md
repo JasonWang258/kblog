@@ -24,4 +24,4 @@ So the person🧔said "It is my first creation"!
 
 "No,you can't". Said the person🧔. 
 
-“Why not”. Said the child.
+“Why not”. Said the child. "No because you can only clone one person ".
