@@ -16,7 +16,7 @@ Then he followed the footsteps behind a tree🌲 and there was a person🕺 maki
 
 "No, I want a clone".  "I can give you the cookie🍪 machine". Said the person🧔.
 
- " I don't want the cookie machine, I want the clone🕺machine". Said the child. 
+ "I don't want the cookie machine, I want the clone🕺machine". Said the child. 
 
 So the person🧔said "It is my first creation"! 
 
@@ -24,4 +24,4 @@ So the person🧔said "It is my first creation"!
 
 "No,you can't". Said the person🧔. 
 
-" Why not
+“Why not”
