@@ -2,7 +2,7 @@
 path: '123'
 date: 2019-10-26T17:16:00.200Z
 title: Follow  the footsteps
-description: My first story
+description: A story about friendship
 ---
 There once was an lonely child🧒. He had no friends and nothing to play with.
 
@@ -16,7 +16,7 @@ Then he followed the footsteps behind a tree🌲 and there was a person🕺 maki
 
 "No, I want a clone".  "I can give you the cookie🍪 machine". Said the person🧔.
 
- " I don't want the cookie machine, I want the clone🕺machine". Said the child. 
+ "I don't want the cookie machine, I want the clone🕺machine". Said the child. 
 
 So the person🧔said "It is my first creation"! 
 
@@ -24,4 +24,8 @@ So the person🧔said "It is my first creation"!
 
 "No,you can't". Said the person🧔. 
 
-" Why not
+“Why not”. Said the child. "No because you can only clone one person". Said the person🧔.
+
+So the child and the person said the same thing at the same time. They said "lets make it half me and you"!      
+
+So they did. So the lonely child was never lonely again, he was a happy child. THE END
