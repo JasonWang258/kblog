@@ -8,7 +8,7 @@ export default function Comments () {
             <Helmet>
                 <script 
                     defer 
-                    src="http://my.lestores.com:5005/js/commento.js"
+                    src="https://my.lestores.com:5005/js/commento.js"
                 />
             </Helmet>
         </React.Fragment>
