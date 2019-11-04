@@ -1,0 +1,7 @@
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect domain aliases to primary domain
+https://www.lestores.com/* https://e.lestores.com/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://modest-saha-8cc7d2.netlify.com/* https://e.lestores.com/:splat 301!
