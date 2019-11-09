@@ -20,4 +20,16 @@ description: A story for early beginners
 
 8  Eight crocodiles who use up all the toothpaste . . .
 
-9  Nine caterpillars who crawl about
+9  Nine caterpillars who crawl about night . . . 
+
+(can you spot them?)
+
+10  A ten-headed monster who takes forever to say "Good night" . . .
+
+11 Eleven elephants who eat midnight snacks . . .
+
+12 And Twelve rabbits who stay up late . . .
+
+But one bear at bedtime is all I need . . .
+
+. . . So have a good night!
