@@ -7,7 +7,7 @@ export default function Comments () {
         'data-auto-init': false
     })
     useEffect(() => {
-        console.log('commento')
+        console.log('commento, useEffect')
         if (loaded) {
             window.commento.main()
         }
