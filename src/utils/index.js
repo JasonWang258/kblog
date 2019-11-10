@@ -31,6 +31,7 @@ export default function useScript (src, attributes={}) {
                     loaded: true,
                     error: false
                 })
+                console.log(state)
                 cachedScripts.push(src)
             }
             const onScriptError = () => {
@@ -52,6 +53,5 @@ export default function useScript (src, attributes={}) {
         },
         [src]
     )
-    console.log(state)
     return [state.loaded, state.error]
 }
