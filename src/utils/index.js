@@ -31,7 +31,7 @@ export default function useScript (src, attributes={}) {
                     loaded: true,
                     error: false
                 })
-                console.log(state)
+                console.log('onLoad', state, src)
                 cachedScripts.push(src)
             }
             const onScriptError = () => {
