@@ -42,6 +42,8 @@ export default function useScript (src, attributes={}) {
             }
             script.addEventListener('load', onScriptLoad)
             script.addEventListener('error', onScriptError)
+            // Add script to document body
+            document.body.appendChild(script)
             // cleanup
             return () => {
                 script.removeEventListener('load', onScriptLoad)
