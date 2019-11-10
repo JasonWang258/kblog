@@ -17,6 +17,21 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-plugin-alias-imports`,
+      options: {
+        alias: {
+          "@src": "src",
+          "@components": "src/components",
+          "@pages": "src/pages",
+          "@templates": "src/templates",
+          "@utils": "src/utils",
+        },
+        extensions: [
+          "js",
+        ],
+      }
+    },
+    {
       resolve: `gatsby-plugin-material-ui`,
       options: {
       },
