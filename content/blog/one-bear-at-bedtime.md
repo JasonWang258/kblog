@@ -4,6 +4,8 @@ date: 2019-10-27T20:30:30.713Z
 title: One bear at bedtime
 description: A story for early beginners
 ---
+![bear](/assets/cute_bear.jpg "Bear")
+
 1 One **bear** at bedtime is all I need . . .
 
 2  I have two **pigs** who wear my clothes . . .
@@ -22,7 +24,7 @@ description: A story for early beginners
 
 9  Nine **caterpillars** who crawl about night . . . 
 
-~~(can you spot them?)~~
+(can you spot them?)
 
 10  A ten-headed **monster** who takes forever to say "Good night" . . .
 
