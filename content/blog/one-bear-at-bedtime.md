@@ -26,6 +26,8 @@ description: A story for early beginners
 
 (can you spot them?)
 
+![](/assets/96px-caterpillar.svg.png)
+
 10  A ten-headed **monster** who takes forever to say "Good night" . . .
 
 11 Eleven **elephants** who eat midnight snacks . . .
