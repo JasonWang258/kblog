@@ -1,28 +1,21 @@
 import { useState, useEffect } from 'react'
 
-let cachedScripts = []
-export default function useScript (src, attributes={}) {
+export default function useScript (src, args) {
     const [state, setState] = useState({
         loaded: false,
         error: false
     })
-
+    
     useEffect(
         () => {
             // If there's no window there's nothing to do for us
             if (! window) {
                 return
             }
-            if (cachedScripts.includes(src)) {
-                setState({
-                    loaded: true,
-                    error: false
-                })
-                return
-            }
             // create Script
             let script = document.createElement('script')
             script.src = src
+            let attributes = JSON.parse(args)
             Object.keys(attributes).map(key => {
                 script[key] = attributes[key]
             })
@@ -31,7 +24,6 @@ export default function useScript (src, attributes={}) {
                     loaded: true,
                     error: false
                 })
-                cachedScripts.push(src)
             }
             const onScriptError = () => {
                 script.remove()
@@ -50,7 +42,7 @@ export default function useScript (src, attributes={}) {
                 script.removeEventListener('error', onScriptError)
             }
         },
-        [src]
+        [src, args]
     )
     return [state.loaded, state.error]
 }
