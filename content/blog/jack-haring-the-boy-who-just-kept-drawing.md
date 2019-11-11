@@ -15,3 +15,5 @@ His dad would draw a line, then Jack would draw one. Soon, the whole page would 
 From that time on, Jack **NEVER** stopped drawing. In elementary shool, while taking tests, Jack doodled on the edge of the paper. When he handed it in, the teacher asked, "why did you doodle on this important piece of paper ? " 
 
 Jack didn't answer, he just went back to his desk and just kept drawing. As a teanager jack liked to draw with loud music playing on. His mother had to **yell** over the music and say, "why don't you turn off the music and ride your bike ?" But Jack had sold his bike for art supplies, so he answered, "why don't you look at my cool drawings ?"
+
+In high school Jack moved to France to draw with other teanagers, wihle listening to music Jack started to draw slanted lines, when he handed it in, the teacher asked, " why did you draw slanted lines and not what I told you ?"
