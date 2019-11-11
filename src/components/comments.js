@@ -10,6 +10,7 @@ export default function Comments () {
     useEffect(() => {
         console.log('commento, useEffect')
         if (loaded) {
+            console.log('commento loaded')
             window.commento.main()
         }
     })
