@@ -17,3 +17,5 @@ From that time on, Jack **NEVER** stopped drawing. In elementary shool, while ta
 Jack didn't answer, he just went back to his desk and just kept drawing. As a teanager jack liked to draw with loud music playing on. His mother had to **yell** over the music and say, "why don't you turn off the music and ride your bike ?" But Jack had sold his bike for art supplies, so he answered, "why don't you look at my cool drawings ?"
 
 In high school Jack moved to France to draw with other teanagers, while listening to music Jack started to draw slanted lines, when he handed it in, the teacher asked, " why did you draw slanted lines and not what I told you ?"
+
+As he ran to get another sheet of paper, he said "I just want to draw somthing new". When he got
