@@ -12,12 +12,12 @@ import styles from "@assets/jss/components/parallaxStyle.js";
 const useStyles = makeStyles(styles);
 
 export default function Parallax(props) {
-  let windowScrollTop;
-  if (window.innerWidth >= 768) {
-    windowScrollTop = window.pageYOffset / 3;
-  } else {
-    windowScrollTop = 0;
-  }
+  let windowScrollTop = 0;
+  // if (window.innerWidth >= 768) {
+  //   windowScrollTop = window.pageYOffset / 3;
+  // } else {
+  //   windowScrollTop = 0;
+  // }
   const [transform, setTransform] = React.useState(
     "translate3d(0," + windowScrollTop + "px,0)"
   );
