@@ -30,7 +30,7 @@ export default function HeaderLinks(props) {
         <Tooltip
           id="test-tooltip"
           title="this is a test link"
-          placement={window.innerWidth > 959 ? "top" : "left"}
+          placement={window && window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
