@@ -1,71 +1,97 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
-import { MDXRenderer } from "gatsby-plugin-mdx"
+import React from 'react'
+import { graphql } from 'gatsby'
+import { MDXRenderer } from 'gatsby-plugin-mdx'
+import { Paper, Typography } from '@material-ui/core'
+import Link from '@components/Link'
+import Bio from '@components/bio'
+import Layout from '@components/layout'
+import SEO from '@components/seo'
+import Comments from '@components/comments'
+import { rhythm } from '@utils/typography'
+import GridContainer from '@components/Grid/GridContainer'
+import GridItem from '@components/Grid/GridItem'
+import clsx from 'clsx'
+import styles from '@assets/jss/views/components.js'
+import { makeStyles } from '@material-ui/core/styles'
+import Parallax from '@components/Parallax/Parallax'
+import Card from "@components/Card/Card.js"
+import CardBody from "@components/Card/CardBody.js"
+import CardHeader from "@components/Card/CardHeader.js"
+import Grid from '@material-ui/core/Grid'
 
-import Bio from "../components/bio"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Comments from '../components/comments'
-import { rhythm, scale } from "../utils/typography"
+const useStyles = makeStyles(styles)
 
-class BlogPostTemplate extends React.Component {
-  render() {
-    const post = this.props.data.mdx
-    const siteTitle = this.props.data.site.siteMetadata.title
-    const { previous, next } = this.props.pageContext
+const BlogPostTemplate = (props) => {
+  const classes = useStyles()
+  const post = props.data.mdx
+  const siteTitle = props.data.site.siteMetadata.title
+  const { previous, next } = props.pageContext
 
-    return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO
-          title={post.frontmatter.title}
-          description={post.frontmatter.description || post.excerpt}
-        />
-        <h1>{post.frontmatter.title}</h1>
-        <p
-          style={{
-            ...scale(-1 / 5),
-            display: `block`,
-            marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
-          }}
-        >
-          {post.frontmatter.date}
-        </p>
-        <MDXRenderer>{post.body}</MDXRenderer>
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
-        <Bio />
-        <Comments />
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
-          <li>
-            {previous && (
-              <Link to={`blog${previous.fields.slug}`} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={`blog${next.fields.slug}`} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
-      </Layout>
-    )
-  }
+  return (
+    <Layout location={props.location} title={siteTitle}>
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.description || post.excerpt}
+      />
+      <Parallax
+        filter
+        image={require("@assets/img/landing-bg.jpg")}
+        style={{ height: "280px" }}
+      >
+        <div className={classes.container}>
+          <GridContainer>
+            <GridItem>
+              <div className={classes.brand}>
+                <Bio />
+              </div>
+            </GridItem>
+          </GridContainer>
+        </div>
+      </Parallax>
+      <div className={clsx(classes.main, classes.mainRaised)}  style={{ marginTop: "-80px", backgroundColor: "#efefcf" }}>
+        <div className={classes.container}>
+          <Typography variant="h4" component="h3">{post.frontmatter.title}</Typography>
+          <Typography component="p">
+            {post.frontmatter.date}
+          </Typography>
+          <hr
+            style={{
+              marginBottom: rhythm(1),
+            }}
+          />
+          <MDXRenderer>{post.body}</MDXRenderer>
+          <hr />
+          <Comments />
+          <Grid container spacing={2}>
+            <Grid item xs={6}>
+              {previous && (
+              <Card>
+                <CardHeader style={{ padding: "10px", backgroundColor: "#afdfef"}}>◀️ Previous Story</CardHeader>
+                <CardBody>
+                    <Link to={`/blog${previous.fields.slug}`} rel="prev">
+                      {previous.frontmatter.title}
+                    </Link>
+                </CardBody>
+              </Card>
+              )}
+            </Grid>
+            <Grid item xs={6}>
+              {next && (
+              <Card>
+                <CardHeader style={{ padding: "10px", backgroundColor: "#afdfef"}}>Next Story ▶️</CardHeader>
+                <CardBody>
+                    <Link to={`/blog${next.fields.slug}`} rel="next">
+                      {next.frontmatter.title}
+                    </Link>
+                </CardBody>
+              </Card>
+              )}
+            </Grid>
+          </Grid>
+        </div>
+      </div>
+    </Layout>
+  )
 }
 
 export default BlogPostTemplate

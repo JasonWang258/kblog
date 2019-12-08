@@ -25,6 +25,7 @@ module.exports = {
           "@pages": "src/pages",
           "@templates": "src/templates",
           "@utils": "src/utils",
+          "@assets": "src/assets"
         },
         extensions: [
           "js",
@@ -92,19 +93,19 @@ module.exports = {
         name: `Eason's Story Book`,
         short_name: `StoryBook`,
         start_url: `/`,
-        background_color: `#ffffff`,
+        background_color: `#f9f9f9`,
         theme_color: `#663399`,
         display: `minimal-ui`,
         // edit below
         icon: `content/assets/book.png`,
       },
     },
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-typography`,
+    //   options: {
+    //     pathToConfigModule: `src/utils/typography`,
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-feed`,
       options: {
