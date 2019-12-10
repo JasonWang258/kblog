@@ -31,7 +31,7 @@ const IndexPage = (props) => {
             <GridItem>
               <div className={classes.brand}>
                 <h2 className={classes.title}>{siteTitle}</h2>
-                <h2>
+                <h2 style={{marginTop: "5px"}}>
                   Hey my friends{" "}
                   <span role="img" aria-label="wave emoji">
                     👋

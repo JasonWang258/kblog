@@ -65,7 +65,9 @@ const BlogPostTemplate = (props) => {
           <MDXRenderer>{post.body}</MDXRenderer>
           </Container>
           <hr />
+          <container>
           <Comments />
+          </container>
           <Grid container spacing={2}>
             <Grid item xs={6}>
               {previous && (
