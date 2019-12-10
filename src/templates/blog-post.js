@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
-import { Paper, Typography } from '@material-ui/core'
+import { Container, Typography } from '@material-ui/core'
 import Link from '@components/Link'
 import Bio from '@components/bio'
 import Layout from '@components/layout'
@@ -50,7 +50,10 @@ const BlogPostTemplate = (props) => {
       </Parallax>
       <div className={clsx(classes.main, classes.mainRaised)}  style={{ marginTop: "-80px", backgroundColor: "#efefcf" }}>
         <div className={classes.container}>
-          <Typography variant="h4" component="h3">{post.frontmatter.title}</Typography>
+          <Container>
+          <Typography variant="h4" component="h3" style={{
+              marginTop: rhythm(1),
+            }}>{post.frontmatter.title}</Typography>
           <Typography component="p">
             {post.frontmatter.date}
           </Typography>
@@ -60,6 +63,7 @@ const BlogPostTemplate = (props) => {
             }}
           />
           <MDXRenderer>{post.body}</MDXRenderer>
+          </Container>
           <hr />
           <Comments />
           <Grid container spacing={2}>
