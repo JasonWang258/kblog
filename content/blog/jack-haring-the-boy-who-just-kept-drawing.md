@@ -18,4 +18,8 @@ Jack didn't answer, he just went back to his desk and just kept drawing. As a te
 
 In high school Jack moved to France to draw with other teanagers, while listening to music Jack started to draw slanted lines, when he handed it in, the teacher asked, " why did you draw slanted lines and not what I told you ?"
 
-As he ran to get another sheet of paper, he said "I just want to draw somthing new". When he got
+As he ran to get another sheet of paper, he said "I just want to draw somthing new". When he got a paper he drew circles.
+
+everybody asked "why do you draw on everything"?
+
+Jack said “everybody needs art”.he disapeared. {maybe he got another piece of paper.}
