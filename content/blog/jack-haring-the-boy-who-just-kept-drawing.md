@@ -22,4 +22,4 @@ As he ran to get another sheet of paper, he said "I just want to draw somthing n
 
 everybody asked "why do you draw on everything"?
 
-Jack said “everybody needs art”.he disapeared. {maybe he got another piece of paper.}
+Jack said "everybody needs art".he disapeared. {maybe he got another piece of paper.}
