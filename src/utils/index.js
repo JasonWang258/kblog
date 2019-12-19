@@ -5,7 +5,7 @@ export default function useScript (src, args) {
         loaded: false,
         error: false
     })
-    
+
     useEffect(
         () => {
             // If there's no window there's nothing to do for us
@@ -18,6 +18,7 @@ export default function useScript (src, args) {
             let attributes = JSON.parse(args)
             Object.keys(attributes).map(key => {
                 script[key] = attributes[key]
+                return null
             })
             const onScriptLoad = () => {
                 setState({

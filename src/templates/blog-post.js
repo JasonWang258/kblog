@@ -50,7 +50,6 @@ const BlogPostTemplate = (props) => {
       </Parallax>
       <div className={clsx(classes.main, classes.mainRaised)}  style={{ marginTop: "-80px", backgroundColor: "#efefcf" }}>
         <div className={classes.container}>
-          <Container>
           <Typography variant="h4" component="h3" style={{
               marginTop: rhythm(1),
             }}>{post.frontmatter.title}</Typography>
@@ -63,7 +62,6 @@ const BlogPostTemplate = (props) => {
             }}
           />
           <MDXRenderer>{post.body}</MDXRenderer>
-          </Container>
           <hr />
           <container>
           <Comments />
@@ -72,7 +70,9 @@ const BlogPostTemplate = (props) => {
             <Grid item xs={6}>
               {previous && (
               <Card>
-                <CardHeader style={{ padding: "10px", backgroundColor: "#afdfef"}}>◀️ Previous Story</CardHeader>
+                <CardHeader style={{ padding: "10px", backgroundColor: "#afdfef"}}>
+                  <span role="img" aria-label="previous">◀️</span> Previous Story
+                </CardHeader>
                 <CardBody>
                     <Link to={`/blog${previous.fields.slug}`} rel="prev">
                       {previous.frontmatter.title}
@@ -84,7 +84,9 @@ const BlogPostTemplate = (props) => {
             <Grid item xs={6}>
               {next && (
               <Card>
-                <CardHeader style={{ padding: "10px", backgroundColor: "#afdfef"}}>Next Story ▶️</CardHeader>
+                <CardHeader style={{ padding: "10px", backgroundColor: "#afdfef"}}>
+                  Next Story <span role="img" aria-label="next">▶️</span>
+                </CardHeader>
                 <CardBody>
                     <Link to={`/blog${next.fields.slug}`} rel="next">
                       {next.frontmatter.title}

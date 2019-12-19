@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Link from "@components/Link"
-import { Button } from "@material-ui/core"
+// import { Button } from "@material-ui/core"
 import Bio from "@components/bio"
 import Layout from "@components/layout"
 import SEO from "@components/seo"
