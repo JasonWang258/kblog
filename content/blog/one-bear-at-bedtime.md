@@ -4,7 +4,13 @@ date: 2019-10-27T20:30:30.713Z
 title: One bear at bedtime
 description: A story for early beginners
 ---
-![bear](/assets/cute_bear.jpg "Bear")
+import Grid from '@material-ui/core/Grid'
+
+<Grid container spacing={3}>
+  <Grid item xs={12} sm={6}>
+    <img style={{ width: "100%" }} src="/assets/cute_bear.jpg" />
+  </Grid>
+</Grid>
 
 1 One **bear** at bedtime is all I need . . .
 
@@ -22,7 +28,7 @@ description: A story for early beginners
 
 8  Eight **crocodiles** who use up all the toothpaste . . .
 
-9  Nine **caterpillars** who crawl about night . . . 
+9  Nine **caterpillars** who crawl about night . . .
 
 (can you spot them?)
 
