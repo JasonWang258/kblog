@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import useScript from '@utils'
 import '@assets/css/style.css'
 
-const inkjs = require('@src/ink/ink.js')
+const inkjs = require('inkjs')
 export default function Inky (props) {
     const { src } = props
     const storyContent = require(`@src/ink/${src}.json`)

@@ -25,7 +25,8 @@ module.exports = {
           "@pages": "src/pages",
           "@templates": "src/templates",
           "@utils": "src/utils",
-          "@assets": "src/assets"
+          "@assets": "src/assets",
+          "@static": "static"
         },
         extensions: [
           "js",
